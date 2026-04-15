@@ -20,7 +20,7 @@ jobs:
           ./install.sh
           cd engine
           # touch /home/runner/autodev/engine/main.py
-          # cp main.py /home/runner/autodev/engine/main.py
+          cp -R /home/runner/work/funwithautodev/funwithautodev/autodev /home/runner/
           autodev "install git"
           
           
