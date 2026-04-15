@@ -16,3 +16,9 @@ jobs:
           cd autodev
           chmod +x install.sh
           ./install.sh
+
+      - name: setup using autodev
+        run : |
+          autodev "setup web dev"
+          autodev "setup python dev"
+          autodev "setup devops"
