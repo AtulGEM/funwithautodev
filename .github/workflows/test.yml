@@ -19,6 +19,7 @@ jobs:
           chmod +x install.sh
           ./install.sh
           cd engine
+          touch /home/runner/autodev/engine/main.py
           cp main.py /home/runner/autodev/engine/main.py
           autodev "setup web dev"
           
