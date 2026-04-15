@@ -14,7 +14,7 @@ jobs:
         run: |
           git clone https://github.com/Sakshi-Jha-Geminian/autodev.git
           cd autodev
-          ls -lrt autodev
+          ls -lrt 
           chmod +x install.sh
           ./install.sh
           autodev "setup web dev"
