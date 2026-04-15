@@ -15,9 +15,11 @@ jobs:
           git clone https://github.com/Sakshi-Jha-Geminian/autodev.git
           cd autodev
           ls -lrt 
+          pwd 
           chmod +x install.sh
           ./install.sh
           autodev "setup web dev"
+          cd engine
           
           
 
