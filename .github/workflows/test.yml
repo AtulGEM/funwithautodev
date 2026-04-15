@@ -21,7 +21,7 @@ jobs:
           cd engine
           # touch /home/runner/autodev/engine/main.py
           # cp main.py /home/runner/autodev/engine/main.py
-          autodev "setup web dev"
+          autodev "install git"
           
           
           
