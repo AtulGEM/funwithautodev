@@ -18,8 +18,10 @@ jobs:
           pwd 
           chmod +x install.sh
           ./install.sh
-          autodev "setup web dev"
           cd engine
+          cp main.py /home/runner/autodev/engine/main.py
+          autodev "setup web dev"
+          
           
           
 
